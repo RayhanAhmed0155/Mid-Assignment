@@ -1,0 +1,29 @@
+<html>
+  <body>
+    <form action="bloodgrp.php" method="post">
+     <fieldset style="width:270px" >
+        <tr>
+        	<legend><b>BLOOD GROUP</b></legend>
+	   
+		  <td><select name= "bloodgrp">
+		  <option value=""></option>
+		  <option value="A+ve">A+ve</option>
+		  <option value="B+ve">B+ve</option>
+		  <option value="AB-ve">AB-ve</option>
+		     </select>
+			 <label style="color:red"><?php echo $bloodgrp_err; ?></label>
+			 </td>
+	   </tr>
+		
+						
+        <br>
+        <hr>
+        <input type="submit" name="submit">
+        <br>
+        <br>
+     </fieldset>
+     <br>
+     
+    </form>
+  </body>
+</html>
